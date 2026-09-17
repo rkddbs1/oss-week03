@@ -41,7 +41,7 @@ sleep(10).then(() => console.log("F"));
 
 console.log("G");
 
-// prediction:
-// actual:
+// prediction: A D E G C F B
+// actual: A D G C F E B
 // why I was wrong (one line per miss):
-//
+// 3,4,5,6 : 함수가 먼저 호출되어서 함수 내에서 시간이 흐른 후에 함수 밖에서 시간이 흐른다고 생각함
