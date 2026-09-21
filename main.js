@@ -50,7 +50,7 @@ try {
 
   fc.days.forEach((day) => {
     console.log(
-      `${label(day.date)} min ${day.min.toFixed(1)} max ${day.max.toFixed(1)} ${describe(day.code)}`
+      `${label(day.date)}  min ${day.min.toFixed(1)}  max ${day.max.toFixed(1)}  ${describe(day.code)}`
     );
   });
 
